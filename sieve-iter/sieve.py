@@ -1,6 +1,6 @@
 # Implementation of Eratosthenes' Sieve functionality using Python's iterator functionality
 
-class adder(object):
+class sieve(object):
     def __init__(self):
         self._primeslist = [2]
         self.start = self._primeslist[-1] + 1
